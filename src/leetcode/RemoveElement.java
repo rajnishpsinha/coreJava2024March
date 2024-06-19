@@ -1,0 +1,10 @@
+package leetcode;
+
+public class RemoveElement {
+public int removeElement(int[] nums, int val) {
+       
+	return -1;
+	
+    }
+
+}
