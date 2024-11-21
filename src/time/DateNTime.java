@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
 
-public class DateNTime {
+public class DateNTime  {
 	public static void main (String[]args)
 	{
 		System.out.println(LocalDateTime.now());
