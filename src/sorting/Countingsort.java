@@ -1,5 +1,8 @@
 package sorting;
 
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 public class Countingsort {
 
 	public static void main(String[] args) {
@@ -29,6 +32,11 @@ arr1[arr[l]]--;
 //printing final values of sorted array
 for (int m=0; m<arr2.length;m++)
 System.out.print(arr2[m]+"   ");
+
+int sum=IntStream.of(arr).sum();
+System.out.println("Sum is: "+sum);
+int[]sortedArray= IntStream.of(arr).sorted().toArray();
+
 
 	}
 

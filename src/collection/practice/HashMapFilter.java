@@ -6,8 +6,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
-public class HashMapFilter {
-	
+public class HashMapFilter {	
 	
 	
 	public Map<Integer, Player> filterMethod(Map<Integer, Player> hashMap){

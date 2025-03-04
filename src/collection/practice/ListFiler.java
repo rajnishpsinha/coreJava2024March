@@ -6,7 +6,8 @@ import java.util.stream.Collectors;
 
 public class ListFiler {
  protected List<ComputerSpecs> getComputerBelowCost(List<ComputerSpecs>compList,Integer cost){
-	 List<ComputerSpecs> resultList =compList.stream().filter(p->p.getCost()<cost).collect(Collectors.toList());		
+	 List<ComputerSpecs> resultList =compList.stream().filter(p->p.getCost()<cost).collect(Collectors.toCollection(ArrayList::new));
+			
 		
 		return resultList;
 	}
