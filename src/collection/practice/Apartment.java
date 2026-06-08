@@ -1,6 +1,6 @@
 package collection.practice;
 
-import lombok.Data;
+//import lombok.Data;
 
 
 public class Apartment {
